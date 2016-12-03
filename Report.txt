@@ -1,0 +1,6 @@
+Interface Relationship : <<Class Name>> GoogleDriveFileSyncManager <<Implements>> FileSyncManager
+
+
+Composite Pattern: GoogleDriveServiceProvider
+
+
