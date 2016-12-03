@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Artefacts>
+  <Artefact type="SourceCode">
+    <ArtefactElement abstract="" id="SC1" interface="" name="App" status="NONE" superClass="" type="Class" visibility="public">
+      <ArtefactSubElement id="SC1_M1" name="usage" parameters="" returnType="void" status="NONE" type="Method" visibility="static"/>
+    </ArtefactElement>
+    <ArtefactElement abstract="" id="SC2" interface="FileSyncManager" name="GoogleDriveFileSyncManager" status="NONE" superClass="" type="Class" visibility="public">
+      <ArtefactSubElement id="SC2_M1" name="getFileId" parameters="fileName:String" returnType="String" status="NONE" type="Method" visibility="public"/>
+      <ArtefactSubElement id="SC2_F1" name="service" status="NONE" type="Field" variableType="Drive" visibility="public"/>
+    </ArtefactElement>
+    <ArtefactElement abstract="" id="SC3" interface="" name="GoogleDriveServiceProvider" status="NONE" superClass="" type="Class" visibility="public">
+      <ArtefactSubElement id="SC3_M2" name="getGoogleDriveClient" parameters="" returnType="Drive" status="NONE" type="Method" visibility="public"/>
+      <ArtefactSubElement id="SC3_M1" name="initGoogleDriveServices" parameters="" returnType="void" status="NONE" type="Method" visibility="public"/>
+      <ArtefactSubElement id="SC3_F5" name="googleDriveClient" status="NONE" type="Field" variableType="Drive" visibility="private"/>
+      <ArtefactSubElement id="SC3_F4" name="INSTANCE" status="NONE" type="Field" variableType="GoogleDriveServiceProvider" visibility="private"/>
+      <ArtefactSubElement id="SC3_F3" name="REDIRECT_URI" status="NONE" type="Field" variableType="String" visibility="private"/>
+      <ArtefactSubElement id="SC3_F2" name="CLIENT_SECRET" status="NONE" type="Field" variableType="String" visibility="private"/>
+      <ArtefactSubElement id="SC3_F1" name="CLIENT_ID" status="NONE" type="Field" variableType="String" visibility="private"/>
+    </ArtefactElement>
+    <ArtefactElement abstract="" id="SC4" interface="" name="WatchDir" status="NONE" superClass="" type="Class" visibility="public">
+      <ArtefactSubElement id="SC4_M1" name="register" parameters="dir:Path" returnType="void" status="NONE" type="Method" visibility="private"/>
+      <ArtefactSubElement id="SC4_F4" name="fileSyncManager" status="NONE" type="Field" variableType="FileSyncManager" visibility="private"/>
+      <ArtefactSubElement id="SC4_F3" name="trace" status="NONE" type="Field" variableType="boolean" visibility="private"/>
+      <ArtefactSubElement id="SC4_F2" name="keys" status="NONE" type="Field" variableType="Map&lt;WatchKey,Path&gt;" visibility="private"/>
+      <ArtefactSubElement id="SC4_F1" name="watcher" status="NONE" type="Field" variableType="WatchService" visibility="private"/>
+    </ArtefactElement>
+    <FileSystemLocation/>
+  </Artefact>
+</Artefacts>
